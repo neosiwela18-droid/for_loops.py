@@ -1,0 +1,12 @@
+names = ['john ClEEse','Eric IDLE','michael']
+names1 = ['graHam chapman', 'TERRY', 'terry jones']
+extra = (input("1. Enter your name: "))
+extra2 = (input("2. Enter your name: \n"))
+calling2 = [extra , extra2]
+for lamas in calling2:
+   print(lamas.title(), "! You are invited to the party on saturday.")
+
+calling = names + names1
+for frog in calling:
+    print(frog.title(), "! You are invited to the party on saturday.")
+
